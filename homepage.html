@@ -1,0 +1,7 @@
+<!-- customer_service/templates/customer_service/homepage.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Welcome to the Gas Utility Customer Service Portal</h2>
+<p>Please <a href="{% url 'submit_request' %}">submit a service request</a> or <a href="{% url 'request_list' %}">view your requests</a>.</p>
+{% endblock %}
